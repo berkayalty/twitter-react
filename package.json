@@ -1,0 +1,34 @@
+{
+  "name": "twitter-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "icon": "svgr icons_svg -d components/icons --icon --replace-attr-values \"#fff=currentColor\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^3.6.0",
+    "next": "^10.0.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "style-loader": "^1.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@storybook/addon-actions": "^6.1.17",
+    "@storybook/addon-essentials": "^6.1.17",
+    "@storybook/addon-links": "^6.1.17",
+    "@storybook/react": "^6.1.17",
+    "@svgr/cli": "^5.5.0",
+    "babel-loader": "^8.2.2",
+    "prettier": "^2.0.5"
+  }
+}
